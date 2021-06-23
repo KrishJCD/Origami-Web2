@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.origamihead{
+    margin:0px;
+    margin-top:20px;
+    text-align:center;
+    background-color:wheat;
+    border-radius: 220px;
+    outline:none;
+    border:none;
+    font-style:oblique;
+    box-shadow:0px 8px 8px 0px aqua;
+    transition:0.01s;
+}
+
+.origamihead:hover{
+    width:100%;
+    text-transform: transformX(-50%);
+    text-transform: uppercase;
+    color:lavender;
+    background-color:black;
+    box-shadow:0px 8px 8px 0px black;
+    border-width:5px;
+    transition:0.1s;
+}
+
+.container1,.container2,.container3, .container4{
+    margin:10px;
+}
+.container1 #chameleon, .container2 #camel,.container3 #panda,.container4 #teddy{
+    margin:10px;
+    padding:10px;
+    width:200px;
+    height:200px;
+    background-color:white;
+    border-radius: 100px;
+    border:5px solid black;
+    text-align:justify;
+    opacity:0.5;
+    filter:blur(10px);
+}
+
+.container1 #chameleon:hover,.container2 #camel:hover,.container3 #panda:hover,.container4 #teddy:hover  {
+    transition:0.9s;
+    opacity:2;
+    box-shadow: 0px 0px 8px 8px aquamarine;
+    filter:blur(0px);
+}
+
+.container1 #chameleon1,.container2 #camel1,.container3 #panda1,.container4 #teddy1{
+    margin:10px;
+    padding:10px;
+    background-color:blanchedalmond;
+    box-shadow: 0px 8px 8px 0px aquamarine;
+    font-family: 'Consolas', Courier, monospace;
+    border-radius:20px;
+}
+
+.container1 #chameleon-des, .container2 #camel-des, .container3 #panda-des, .container4 #teddy-des{
+    margin-left:50px;
+
+    padding-left:200px;
+    text-align: justify;
+    background-color: black;
+    border-radius: 100px;
+    opacity:0.5;
+}
+
+.container1 #chameleon-des:hover, .container2 #camel-des:hover, .container3 #panda-des:hover, .container4 #teddy-des:hover{
+    opacity:1.0;
+    background-color: black;
+    color:white;
+    transition:0.9s;    
+}
+
+.container1 #line1,#line2,#line3,#line4{
+    margin-left:10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+
+#Menu li{
+    color:white;
+    display:inline;
+    float: right;
+    overflow: hidden;
+    padding: 8px;
+    transition:0.9s;
+}
+#Menu li:hover{
+    background-color: aqua;
+    color:red;
+    border-end-end-radius: 20px;
+    border-top-left-radius: 30px;
+}
+
